@@ -1,5 +1,5 @@
 {
-  "name": "@nantis/eslint-code-style",
+  "name": "@nantis/typescript-code-style",
   "version": "0.0.0-development",
   "description": "Common ESLint coding style for the Nantis IoT Platform",
   "main": "index.js",
@@ -36,8 +36,15 @@
     "index.js",
     "README",
     "LICENSE",
-    "package-lock.json"
+    "package-lock.json",
+    "templates",
+    ".eslintrc",
+    "tsconfig.json",
+    ".prettierrc.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "release": {
     "branches": [
       "main"

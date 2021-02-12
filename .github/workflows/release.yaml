@@ -1,4 +1,4 @@
-name: Test and Release
+name: Release
 
 on: push
 env:
@@ -23,8 +23,6 @@ jobs:
         run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
       - name: Install dependencies
         run: npm ci --no-audit
-      - name: Test
-        run: npm test
       - name: Semantic release
         continue-on-error: true
         run: |

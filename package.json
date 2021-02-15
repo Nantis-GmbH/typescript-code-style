@@ -15,11 +15,10 @@
     "url": "https://github.com/Nantis-GmbH/eslint-code-style/issues"
   },
   "license": "BSD-3-Clause",
-  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-angular": "11.0.0",
-    "@nantis/eslint-config-typescript": "1.0.0",
+    "@nantis/eslint-config-typescript": "1.0.1",
     "husky": "5.0.9",
     "lint-staged": "10.5.4",
     "pinst": "2.1.4",
